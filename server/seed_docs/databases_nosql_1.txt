@@ -1,0 +1,5 @@
+NoSQL databases are a broad category: document stores (MongoDB), key-value stores (Redis), wide-column stores (Cassandra), and graph databases (Neo4j). Many NoSQL systems trade strict schema and ACID guarantees for flexibility and horizontal scalability. Document databases, for example, let you store JSON-like documents that can vary in shape between records, which is useful for evolving apps.
+
+NoSQL shines when you need to scale horizontally across many machines, or when your data model is naturally hierarchical and fits a document structure. For high write throughput and denormalized queries, NoSQL data models often keep related data together, reducing the need for joins and enabling low-latency reads.
+
+The tradeoffs include fewer built-in relational guarantees, and often eventual consistency models rather than strict strong consistency. This requires careful application-level design if you need strict invariants.

@@ -1,0 +1,5 @@
+SQL databases typically enforce strong schema and relational constraints. This is helpful when business rules depend on relationships — for instance, foreign keys ensure referential integrity between orders and customers. Transactions are typically robust, allowing multiple operations to succeed or fail as a single unit.
+
+However, monolithic relational schemas can be a limitation for agile development where application models evolve quickly. Scaling writes horizontally requires sharding or complex partitioning schemes. That said, modern SQL engines and cloud offerings have introduced features like built-in sharding, distributed SQL (e.g., CockroachDB), and easier replication setups that mitigate some historical scaling concerns.
+
+In practice, teams choose SQL when consistency and complex joins are essential, or when the ecosystem (tools, BI, reporting) expects a relational store.

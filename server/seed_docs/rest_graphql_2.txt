@@ -1,0 +1,3 @@
+GraphQL is a query language that lets clients ask precisely for the data they need, and the server returns that structure. Instead of many endpoints, GraphQL exposes a single endpoint where clients can request complex, nested data in one call. GraphQL reduces over-fetching and under-fetching problems typical with REST.
+
+GraphQL also adds complexity: you must design resolvers, think about batching and N+1 query problems, and secure the schema carefully. It’s often used in frontends that need to assemble rich views from many backend sources.

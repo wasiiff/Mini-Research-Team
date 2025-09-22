@@ -1,0 +1,3 @@
+For large-scale, distributed systems, NoSQL databases can be the right choice. Systems like Cassandra are designed for high availability and partition tolerance, offering tunable consistency. MongoDB offers flexible documents and good developer ergonomics, with features like replica sets and sharding to scale horizontally.
+
+Teams pick NoSQL when fast iteration, flexible schemas, or shardable workloads are needed. Common use cases include user profiles, content management, real-time analytics, and caching layers. However, it is important to understand the consistency model: many NoSQL systems default to eventual consistency, and you may need to add application-side logic or use specific database features to ensure required guarantees.

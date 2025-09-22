@@ -1,0 +1,3 @@
+REST (Representational State Transfer) is an architectural style that uses HTTP methods and URIs to manipulate resources. REST endpoints typically map resources (for example /users, /orders) to HTTP verbs: GET, POST, PUT, DELETE. REST benefits from simplicity, wide tooling, and the stateless nature of requests which makes load balancing and caching straightforward.
+
+Designing a REST API requires thought about resource design, versioning, and pagination. Responses are often JSON and can be cached at various layers (CDN, reverse proxies). REST is a strong choice for many CRUD-style operations and public APIs.
